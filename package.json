@@ -1,6 +1,11 @@
 {
   "name": "fexo",
   "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hktang/fexo.git"
+  },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
     "babel": "^6.5.2",

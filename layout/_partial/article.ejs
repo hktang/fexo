@@ -8,6 +8,11 @@
         <span><%= date(post.date, 'YYYY.MM.DD') %></span>
       </span>
 
+      <span>
+        <i class="icon-calendar"></i>
+        <span><%= date(post.updated, 'YYYY.MM.DD') %></span>
+      </span>
+
       <% if (config.author){ %>
         <span class="article-author">
           <i class="icon-user"></i>
